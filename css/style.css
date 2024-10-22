@@ -333,7 +333,7 @@ body {
   border-left: 5px solid #8a6238;
   border-radius: 1rem;
   transition: all 0.7s ease;
-  padding: 5px;
+  padding: 20px;
 }
 
 #information .text:hover {
