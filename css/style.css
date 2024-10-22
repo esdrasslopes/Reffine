@@ -20,7 +20,7 @@ Author URL: http://w3layouts.com
   box-sizing: border-box;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-} 
+}
 
 body {
   background-color: #f2f2f2;
@@ -28,7 +28,7 @@ body {
   min-width: 100%;
 }
 
-/* Conteiner */ 
+/* Conteiner */
 #conteiner {
   min-width: 100%;
   min-height: 100vh;
@@ -103,7 +103,7 @@ body {
 #principal {
   position: relative;
   height: 700px;
-  background-image: url(..//assets/images/Designer\ \(2\).jpeg);
+  background-image: url(../assets/images/Designer\ \(2\).jpeg);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -149,7 +149,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh; 
+  height: 100vh;
 }
 
 .slogan {
@@ -159,7 +159,7 @@ body {
   z-index: 2;
   font-weight: bold;
   font-size: 35px;
-  text-align: center; 
+  text-align: center;
 }
 
 .msg {
@@ -170,7 +170,6 @@ body {
   width: 47ch;
   font-family: "Manrope", sans-serif;
 }
-
 
 #orcamento {
   display: flex;
@@ -235,7 +234,6 @@ body {
   border-radius: 15px;
   width: 500px;
   text-align: center;
-
 }
 
 /* Estilo dos inputs */
@@ -276,7 +274,6 @@ body {
   transform: scale(1.02);
 }
 
-
 /* Botão de envio */
 #btn {
   padding: 15px 40px;
@@ -312,7 +309,7 @@ body {
 /* Textos */
 
 #information .text,
-#objective .text{
+#objective .text {
   box-shadow: 1px 3px 1px #ccc;
 }
 
@@ -339,11 +336,10 @@ body {
   transform: scale(1.05);
 }
 
-#information .text h2{
+#information .text h2 {
   margin-top: -5px;
   margin-bottom: 1rem;
 }
-
 
 #information .text p {
   margin-right: 1rem;
@@ -675,9 +671,7 @@ footer ul {
 
 /* Media */
 
-
-
- @media (max-width: 1700px) {
+@media (max-width: 1700px) {
   #information .work,
   #objective .product {
     height: 650px;
@@ -688,9 +682,7 @@ footer ul {
   #objective .text p {
     font-size: 1.6rem;
   }
-} 
-
-
+}
 
 @media (max-width: 1440px) {
   #header-conteiner h2 {
@@ -702,7 +694,7 @@ footer ul {
   }
 
   #information,
-  #objective{
+  #objective {
     margin: 40px auto;
   }
   #information {
@@ -753,8 +745,7 @@ footer ul {
 }
 
 @media (max-width: 1024px) {
-
-  .mgs{
+  .mgs {
     font-size: 1.2rem;
   }
 
@@ -779,12 +770,12 @@ footer ul {
   }
 }
 
-@media (max-width: 800px){
-  #whats{
+@media (max-width: 800px) {
+  #whats {
     right: 20px;
   }
   #information,
-  #objective{
+  #objective {
     gap: 5px;
   }
 
@@ -795,15 +786,14 @@ footer ul {
   }
 
   #informtion .work,
-  #objective .product{
+  #objective .product {
     width: 45%;
   }
 
-  #information .work{
+  #information .work {
     height: 375px;
     width: 47%;
   }
-
 }
 
 @media (max-width: 700px) {
@@ -848,15 +838,14 @@ footer ul {
     width: 100%;
     order: 2;
   }
-   .conteiner-whats {
+  .conteiner-whats {
     margin-right: -10px;
-  } 
+  }
 
-  #form-conteiner{
+  #form-conteiner {
     display: flex;
     flex-direction: column;
   }
-
 }
 
 @media (max-width: 600px) {
@@ -876,7 +865,6 @@ footer ul {
     padding: 15px;
     font-size: 1rem;
   }
-
 
   footer {
     justify-content: center;
@@ -903,7 +891,7 @@ footer ul {
   .msg {
     font-size: 0.9rem;
   }
-  #whats{
+  #whats {
     right: 10px;
   }
   .form-conteiner {
@@ -912,7 +900,6 @@ footer ul {
 
   #information .work {
     height: 600px;
-
   }
 
   #objective .product {
@@ -933,66 +920,22 @@ footer ul {
     font-size: 0.7rem;
   }
 
-  .budget-container .form-container{
-      width: 80%;
+  .budget-container .form-container {
+    width: 80%;
   }
 }
 
-@media(max-width: 400px){
-  
-  .conteiner-whats{
+@media (max-width: 400px) {
+  .conteiner-whats {
     width: 300px;
   }
-  
-}
 
-@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-width: 320px) and (max-width: 768px) {
-  #information {
-    display: flex;
-    flex-direction: column;
+  .whats-box input:focus + label,
+  .whats-box input:focus:valid + label {
+    left: 25px;
   }
-  
-  #information .text {
-    width: 100%;
-    margin-bottom: 30px;
-    height: auto;
-  }
-  
-  #information .text p {
-    font-size: 1.2rem;
-  }
-  
-  .work {
-    width: 100%;
-  }
-  
-  #objective {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  #objective .text {
-    width: 100%;
-    margin-bottom: 20px;
-    order: 1;
-    height: auto;
-  }
-  
-  #objective .text p {
-    font-size: 1.2rem;
-  }
-  
-  .product {
-    width: 100%;
-    order: 2;
-  }
-  
-  .conteiner-whats {
-    margin-right: -10px;
-  }
-  
-  #form-conteiner {
-    display: flex;
-    flex-direction: column;
+
+  .whats-box label {
+    left: 30px;
   }
 }
