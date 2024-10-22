@@ -940,4 +940,8 @@ footer ul {
 
 @media(max-width: 400px){
   
+  .conteiner-whats{
+    width: 300px;
+  }
+  
 }
