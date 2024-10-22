@@ -939,3 +939,23 @@ footer ul {
     left: 30px;
   }
 }
+
+@supports (-webkit-appearance: none) {
+  @media only screen and (max-width: 500px) {
+    #information,
+    #objective{
+      flex-direction: column;
+    }
+
+    #information .work {
+      height: 600px;
+  
+    }
+
+    #objective .product {
+      height: 600px;
+    }
+  
+  }
+}
+
