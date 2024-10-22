@@ -945,3 +945,54 @@ footer ul {
   }
   
 }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-width: 400px) and (max-width: 768px) {
+  #information {
+    display: flex;
+    flex-direction: column;
+  }
+  #information .text {
+    width: 100%;
+    margin-bottom: 30px;
+    height: auto;
+  }
+
+  #information .text p {
+    font-size: 1.2rem;
+  }
+
+  #information .work {
+    width: 100%;
+  }
+
+  #objective {
+    display: flex;
+    flex-direction: column;
+  }
+  #objective .text {
+    width: 100%;
+    margin-bottom: 20px;
+    order: 1;
+    margin-bottom: 30px;
+    height: auto;
+  }
+
+  #objective .text p {
+    font-size: 1.2rem;
+  }
+
+  #objective .product {
+    width: 100%;
+    order: 2;
+  }
+
+  .conteiner-whats {
+    margin-right: -10px;
+  } 
+
+  #form-conteiner {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
