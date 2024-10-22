@@ -360,7 +360,7 @@ body {
 
 .work {
   width: 35%;
-  height: 500px;
+  min-height: 500px;
   background-image: url(../assets/images/jovem-carpinteiro-fazendo-moveis-de-madeira-enquanto-trabalhava-em-marcenaria_93675-150486.png);
   background-position: center;
   background-size: cover;
@@ -419,7 +419,7 @@ body {
 .product {
   background-image: url(../assets/images/fernando_mendes_oficina_1.jpg);
   width: 35%;
-  height: 500px;
+  min-height: 500px;
   background-position: center;
   background-size: cover;
   border-radius: 10px;
@@ -681,7 +681,7 @@ footer ul {
  @media screen and (max-width: 1700px) {
   #information .work,
   #objective .product {
-    height: 650px;
+    min-height: 650px;
     width: 35%;
   }
 
@@ -722,7 +722,7 @@ footer ul {
 
   #information .work {
     width: 40%;
-    height: 420px;
+    min-height: 420px;
     padding: 10px;
   }
 
@@ -742,7 +742,7 @@ footer ul {
 
   #objective .product {
     width: 40%;
-    height: 420px;
+    min-height: 420px;
     padding: 10px;
   }
 
@@ -801,7 +801,7 @@ footer ul {
   }
 
   #information .work{
-    height: 375px;
+    min-height: 375px;
     width: 47%;
   }
 
@@ -912,12 +912,12 @@ footer ul {
   }
 
   #information .work {
-    height: 600px;
+    min-height: 600px;
 
   }
 
   #objective .product {
-    height: 600px;
+    min-height: 600px;
   }
 
   footer .nav-info {
@@ -962,12 +962,12 @@ footer ul {
     }
 
     #information .work {
-      height: 600px;
+      min-height: 600px;
   
     }
 
     #objective .product {
-      height: 600px;
+      min-height: 600px;
     }
   
   }
