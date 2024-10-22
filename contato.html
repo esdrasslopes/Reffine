@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/assets/icon1.svg" />
+    <title>Contato | Reffine</title>
+    <link rel="stylesheet" href="css/contato.css" />
+    <script src="js/contato.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init({
+    publicKey: "ufXgs4AQ7UGRcXKHJ",
+  });
+})();
+</script>
+  </head>
+  <body>
+    <header id="header-conteiner">
+      <h2>Reffine Móveis</h2>
+      <ul id="links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </header>
+
+    <div id="conteiner" class="hidden">
+      <div id="form-header">
+        <h3>Entre em contato conosco</h3>
+        <p>
+          Estamos aqui para ouvir você! Se tiver alguma dúvida sobre nossos
+          serviços não hesite em nos contatar. Agradecemos seu interesse e
+          aguardamos seu contato.
+        </p>
+      </div>
+      <form id="form-conteiner">
+        <div id="form-inputs" class="input-name">
+          <label for="name">Nome<span>*</span>:</label>
+          <input type="text" required id="name" placeholder="Seu nome" />
+        </div>
+        <div id="form-inputs" class="input-email">
+          <label for="email">Email <span>*</span>:</label>
+          <input type="email" id="email" required placeholder="Seu email" />
+        </div>
+        <div id="form-inputs" class="input-message">
+          <label for="message">Mensagem<span>*</span>:</label>
+          <textarea id="message" placeholder="Sua Mensagem"></textarea>
+        </div>
+        <input type="submit" value="Enviar" class="btn" />
+      </form>
+
+      <footer class="hidden">
+        <div class="contact">
+          <ul>
+            <h4>Contatos</h4>
+            <li>(61) 9 8649-4228</li>
+            <li>reffinemoveis@gmail.com</li>
+          </ul>
+        </div>
+
+        <div class="contact ">
+          <h4>Endereço</h4>
+          <li>
+            <p>Valparaíso de Goiás. CEP 72870-324</p>
+            <a
+              href="https://maps.app.goo.gl/gzMovPaoHGbpUfMp6"
+              target="_blank"
+              class="local"
+            >
+              <i class="fa-solid fa-location-dot"></i>
+              Morada Nobre
+            </a>
+          </li>
+        </div>
+
+        <div class="contact">
+          <h4>Horário de Funcionamento</h4>
+          <li>Segunda à sexta : 8:00-18:00</li>
+          <li>Sábado: 8:00-13:00</li>
+          <li>Domingo: Fechado</li>
+        </div>
+      </footer>
+     </div>
+  </body>
+</html>

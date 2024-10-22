@@ -1,0 +1,386 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Manrope:wght@200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  min-width: 100%;
+}
+
+/* Header */
+#header-conteiner {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+#header-conteiner h2 {
+  font-family: "Manrope", sans-serif;
+  margin: 10px 20px;
+  white-space: nowrap;
+  color: #333;
+  font-size: 1.6rem;
+}
+
+#header-conteiner ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 50px;
+  list-style: none;
+  padding: 5px;
+  width: 100%;
+  margin-right: 10px;
+}
+
+#header-conteiner a {
+  text-decoration: none;
+  position: relative;
+  color: #333;
+  font-size: 1.4rem;
+  font-family: "Afacad Flux", sans-serif;
+}
+
+#header-conteiner a::after {
+  content: " ";
+  width: 0%;
+  height: 2px;
+  background-color: #121212;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s ease-in-out;
+}
+#header-conteiner a:hover::after {
+  width: 100%;
+}
+
+#conteiner {
+  background-color: #fdfdfd;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100%;
+  margin-top: 10px;
+}
+
+/* Formulário */
+#form-header h3 {
+  text-align: center;
+  font-family: "Afacad Flux", sans-serif;
+  font-size: 4rem;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #ccc;
+}
+
+#form-header p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px;
+  width: 600px;
+  font-size: 1.2rem;
+  font-family: "Afacad Flux", sans-serif;
+  margin-bottom: 30px;
+}
+
+#form-conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#form-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+#form-inputs label {
+  margin-bottom: 10px;
+  font-family: "Afacad Flux", sans-serif;
+  font-size: 1.2rem;
+}
+
+#form-inputs label span {
+  color: red;
+}
+
+#form-inputs input,
+#form-inputs textarea {
+  width: 600px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 20px 25px;
+  outline: none;
+  transition: 0.5s;
+}
+
+#form-inputs textarea::placeholder{
+  font-size: 14px;
+  font-family:"Afacad Flux", sans-serif ;
+}
+#form-inputs input:focus,
+#form-inputs textarea:focus {
+  transform: scale(1.05);
+}
+#form-conteiner .btn {
+  padding: 15px 40px;
+  border-radius: 10px;
+  font-size: 17px;
+  background-color: #1d1d1d;
+  outline: none;
+  border: none;
+  color: #f9f9f9;
+  opacity: 0.9;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+#form-conteiner .btn:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+
+.erro{
+  color: #dc3545;
+  text-align: left;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.erro.show{
+  opacity: 1;
+}
+.desappear-error{
+  display: none;
+}
+
+
+.hide {
+ display: none !important;
+ transition: all 0.4 ease;
+}
+
+.feedback {
+  position: absolute; 
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100vh; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  transition: opacity 0.5s ease; 
+  opacity: 0;
+}
+
+.feedback.show {
+  opacity: 1; 
+}
+
+.feedback p {
+  font-size: 1.7rem;
+  text-align: center;
+  transition: opacity 1.5s ease; 
+  opacity: 0; 
+}
+
+.feedback.show p {
+  opacity: 1; 
+}
+/* Contatos */
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex: 1 1 0;
+  margin-top: 50px;
+  width: 90%;
+  margin: 50px auto;
+}
+
+.contact h4 {
+  font-weight: bold;
+  font-size: 1.4rem;
+  font-family: "Afacad Flux", sans-serif;
+}
+.contact ul {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 0;
+}
+
+.contact li {
+  list-style: none;
+  margin-top: 15px;
+  font-size: 1.05rem;
+  font-family: "Afacad Flux", sans-serif;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+  transition: 0.4s;
+  display: inline-block;
+}
+
+.contact a:hover {
+  transform: scale(1.05);
+}
+
+.contact .fa-location-dot {
+  color: black;
+  margin-top: 20px;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(30px);
+  transform: translateY(10%);
+  transition: all 0.7s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+  transition: all 0.7s;
+}
+
+@media (max-width: 900px) {
+  footer {
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 750px) {
+  #form-header h3 {
+    font-size: 3rem;
+  }
+
+  #form-header p {
+    font-size: 1.1rem;
+  }
+
+  #form-inputs label {
+    font-size: 1.1rem;
+  }
+
+  #form-inputs input,
+  #form-inputs textarea {
+    width: 500px;
+  }
+  #form-conteiner .btn {
+    padding: 15px 30px;
+  }
+  .feedback p{
+    font-size: 1.5rem;
+  }
+
+  footer {
+    gap: 40px;
+  }
+  .contact li {
+    font-size: 1rem;
+  }
+
+  .contact p {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  #form-header h3 {
+    font-size: 2.5rem;
+    width: 80%;
+    margin: 15px auto;
+  }
+
+  #form-header p {
+    width: 80%;
+    margin: 15px auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  #conteiner{
+    margin-top: 20px;
+  }
+ 
+  #form-header h3 {
+    font-size: 2rem;
+  }
+
+  #form-header p {
+    font-size: 1rem;
+  }
+
+  #form-inputs input,
+  #form-inputs textarea{
+    width: 400px;
+  }
+
+  footer {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  footer * {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  #header-conteiner h2 {
+    font-size: 1.4rem;
+  }
+
+  #header-conteiner a {
+    font-size: 1.2rem;
+  }
+
+  #form-inputs input,
+  #form-inputs textarea {
+    width: 300px;
+  }
+
+  .erro{
+    font-size: 0.8rem;
+  }
+
+  .feedback p{
+    font-size: 1.3rem;
+  }
+
+  .contact .fa-location-dot{
+    margin-top: 0;
+  }
+}
+
+@media(max-width:330px){
+    #conteiner {
+        width: 120%;
+    }
+}
