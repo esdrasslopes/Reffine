@@ -356,6 +356,10 @@ footer {
   #header-conteiner h2 {
     font-size: 1.4rem;
   }
+  #header-conteiner ul{
+    gap: 15px;
+  }
+
 
   #header-conteiner a {
     font-size: 1.2rem;
