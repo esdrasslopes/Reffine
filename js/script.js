@@ -114,6 +114,10 @@ function createClass(name, pedido) {
       this.nome = name;
       this.pedido = request;
     }
+
+    get ShowValues(){
+      return `Olá meu nome é ${this.nome} e tenho um pedido: ${this.pedido}`
+    }
   }
 
   const obj = new order(name, pedido);
@@ -146,11 +150,11 @@ function createBudgetContainer() {
     ContainerBudget.remove();
   });
 
-  function API(name, order) {
+  function API(PersonInformation) {
     const API = document.createElement("a");
     API.setAttribute(
       "href",
-      `https://api.whatsapp.com/send?phone=5561993393314&text=Olá meu nome é ${name}, e tenho um pedido: ${order}`
+      `https://api.whatsapp.com/send?phone=5561993393314&text=${PersonInformation.ShowValues}`
     );
     API.setAttribute("target", "_blank");
     document.body.appendChild(API);
@@ -166,7 +170,7 @@ function createBudgetContainer() {
         if(!InputName || !InputOrder){
           return;
         }
-        API(PersonInformation.nome,PersonInformation.pedido);
+        API(PersonInformation);
     }
   );
 }
