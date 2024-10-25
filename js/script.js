@@ -179,3 +179,23 @@ budget.addEventListener("click", (e) => {
   e.preventDefault()
   createBudgetContainer();
 });
+
+function isSafari() {
+  return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+}
+
+function applyBackgroundColor() {
+  if (window.innerWidth < 600) { 
+    [information, objective].forEach((item) => {
+      item.style.backgroundColor = "black";
+    });
+  }
+}
+
+
+if (isSafari()) {
+  applyBackgroundColor();
+}
+
+
+window.addEventListener("resize", applyBackgroundColor);
