@@ -812,8 +812,9 @@ footer ul {
     font-size: 1.3rem;
   }
   #information {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+    display: block;
   }
   #information .text {
     width: 100%;
@@ -830,8 +831,9 @@ footer ul {
   }
 
   #objective {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+    display: block;
   }
   #objective .text {
     width: 100%;
@@ -954,22 +956,5 @@ footer ul {
  }
 }
 
-@supports (-webkit-appearance: none) {
-  @media only screen and (max-width: 500px) {
-    #information,
-    #objective{
-      flex-direction: column;
-    }
 
-    #information .work {
-      min-height: 600px;
-  
-    }
-
-    #objective .product {
-      min-height: 600px;
-    }
-  
-  }
-}
 
