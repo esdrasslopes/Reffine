@@ -812,8 +812,6 @@ footer ul {
     font-size: 1.3rem;
   }
   #information {
-    /* display: flex;
-    flex-direction: column; */
     display: block;
   }
   #information .text {
@@ -831,15 +829,13 @@ footer ul {
   }
 
   #objective {
-    /* display: flex;
-    flex-direction: column; */
     display: block;
   }
   #objective .text {
     width: 100%;
     margin-bottom: 20px;
     order: 1;
-    margin-top: 50px;
+    margin-top: 30px;
     height: auto;
   }
 
@@ -849,7 +845,6 @@ footer ul {
 
   #objective .product {
     width: 100%;
-    order: 2;
   }
    .conteiner-whats {
     margin-right: -10px;
@@ -955,6 +950,4 @@ footer ul {
   left: 30px;
  }
 }
-
-
 
