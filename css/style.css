@@ -535,7 +535,7 @@ body {
 }
 
 .whats-box input {
-  width: 70%;
+  width: 100%;
   padding: 10px 15px;
   border: 1px solid #128c7e;
   border-radius: 8px;
@@ -546,7 +546,9 @@ body {
   outline: none;
   transition: all 0.3s ease;
   margin-right: 5px;
+  flex: 1;
 }
+
 
 .whats-box input:focus {
   border-color: #25d366;
