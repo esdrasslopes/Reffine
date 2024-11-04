@@ -900,15 +900,12 @@ footer li {
     flex-direction: column;
   }
 
-  .conteiner-whats{
-    display: block;
-  }
   .conteiner-whats input{
-    width: 100%;
+    width: 80%;
   }
 
   .conteiner-whats button{
-    width: 30%;
+    width: 20%;
   }
 }
 
