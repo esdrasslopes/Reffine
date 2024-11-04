@@ -901,6 +901,11 @@ footer li {
     display: flex;
     flex-direction: column;
   }
+
+    
+  .whats-box input:focus + label,
+  .whats-box input:focus:valid + label {
+  left: 50px;
 }
 
 @media screen and (max-width: 600px) {
