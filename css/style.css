@@ -901,14 +901,6 @@ footer li {
     display: flex;
     flex-direction: column;
   }
-
-  .conteiner-whats input{
-    width: 80%;
-  }
-
-  .conteiner-whats button{
-    width: 20%;
-  }
 }
 
 @media screen and (max-width: 600px) {
