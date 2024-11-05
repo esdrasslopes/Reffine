@@ -34,4 +34,4 @@ A página inicial é o ponto de partida para conhecer a Reffine Móveis. Aqui es
 
 ## Como Usar
 
-1.Acesse o link https://reffine.vercel.app/
+Acesse o link https://reffine.vercel.app/
