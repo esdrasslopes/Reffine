@@ -32,6 +32,6 @@ A página inicial é o ponto de partida para conhecer a Reffine Móveis. Aqui es
 - **Contato por Whatsapp**: Permite que clientes entrem em contato para consultas ou pedidos de orçamento.
 - **Formulário de Contato**: Uma da página do nosso site serve para contato para tirar dúvidas ou para deixar sua informações para entrarmos em contato.
 
-## Como Usar
+## Onde usar
 
 Acesse o link https://reffine.vercel.app/
