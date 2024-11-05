@@ -802,8 +802,8 @@ footer li {
   }
 }
 
-@media screen and (max-width: 700px) {
-  msg {
+@media (max-width: 700px) {
+  .msg {
     font-size: 1.3rem;
   }
   #information {
@@ -831,8 +831,6 @@ footer li {
   #objective .text {
     width: 100%;
     margin-bottom: 20px;
-    order: 1;
-    margin-bottom: 30px;
     height: auto;
   }
 
@@ -842,7 +840,6 @@ footer li {
 
   #objective .product {
     width: 100%;
-    order: 2;
   }
   .conteiner-whats {
     margin-right: -10px;
@@ -854,12 +851,12 @@ footer li {
   }
 }
 
-@media only screen and (max-width: 700px) and (-webkit-device-pixel-ratio: 2),
-  only screen and (max-width: 700px) and (-webkit-device-pixel-ratio: 3) {
-
+@media only (max-width: 700px) and (-webkit-device-pixel-ratio: 2),
+  only  (max-width: 700px) and (-webkit-device-pixel-ratio: 3) {
   #information {
     display: block;
   }
+
   #objective {
     display: block;
   }
@@ -868,13 +865,14 @@ footer li {
     margin-right: -10px;
   }
 
-  .whats-box label{
+  .whats-box label {
     left: 55px;
   }
-    
+
   .whats-box input:focus + label,
   .whats-box input:focus:valid + label {
-  left: 50px;
+    left: 50px;
+  }
 }
 
 
