@@ -854,62 +854,7 @@ footer li {
   }
 }
 
-@media only screen and (max-width: 700px) and (-webkit-device-pixel-ratio: 2),
-  only screen and (max-width: 700px) and (-webkit-device-pixel-ratio: 3) {
-  .msg {
-    font-size: 1.3rem;
-  }
-  #information {
-    display: block;
-  }
-  #information .text {
-    width: 100%;
-    margin-bottom: 30px;
-    height: auto;
-  }
 
-  #information .text p {
-    font-size: 1.2rem;
-  }
-
-  #information .work {
-    width: 100%;
-  }
-
-  #objective {
-    display: block;
-  }
-  #objective .text {
-    width: 100%;
-    margin-bottom: 20px;
-    margin-top: 30px;
-    height: auto;
-  }
-
-  #objective .text p {
-    font-size: 1.2rem;
-  }
-
-  #objective .product {
-    width: 100%;
-  }
-  .conteiner-whats {
-    margin-right: -10px;
-  }
-
-  #form-conteiner {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .whats-box label{
-    left: 55px;
-  }
-    
-  .whats-box input:focus + label,
-  .whats-box input:focus:valid + label {
-  left: 50px;
-}
 
 @media screen and (max-width: 600px) {
   .msg {
