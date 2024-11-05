@@ -854,6 +854,29 @@ footer li {
   }
 }
 
+@media only screen and (max-width: 700px) and (-webkit-device-pixel-ratio: 2),
+  only screen and (max-width: 700px) and (-webkit-device-pixel-ratio: 3) {
+
+  #information {
+    display: block;
+  }
+  #objective {
+    display: block;
+  }
+
+  .conteiner-whats {
+    margin-right: -10px;
+  }
+
+  .whats-box label{
+    left: 55px;
+  }
+    
+  .whats-box input:focus + label,
+  .whats-box input:focus:valid + label {
+  left: 50px;
+}
+
 
 
 @media screen and (max-width: 600px) {
