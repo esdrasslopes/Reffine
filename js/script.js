@@ -60,7 +60,7 @@ function API(value) {
   const API = document.createElement("a");
   API.setAttribute(
     "href",
-    `https://api.whatsapp.com/send?phone=5561993393314&text=Olá, meu pedido é ${value}`
+    `https://api.whatsapp.com/send?phone=5561986494228&text=Olá, meu pedido é ${value}`
   );
   API.setAttribute("target", "_blank");
   document.body.appendChild(API);
@@ -154,7 +154,7 @@ function createBudgetContainer() {
     const API = document.createElement("a");
     API.setAttribute(
       "href",
-      `https://api.whatsapp.com/send?phone=5561993393314&text=${PersonInformation.ShowValues}`
+      `https://api.whatsapp.com/send?phone=5561986494228&text=${PersonInformation.ShowValues}`
     );
     API.setAttribute("target", "_blank");
     document.body.appendChild(API);
