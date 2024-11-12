@@ -859,6 +859,10 @@ footer li {
     display: block;
   }
 
+  #objective .text{
+    margin-top: 25px;
+  }
+
   .conteiner-whats {
     margin-right: -10px;
   }
