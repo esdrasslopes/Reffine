@@ -959,12 +959,13 @@ footer li {
 
 @media screen and (max-width: 400px) {
   .conteiner-whats {
-    width: 300px;
+    width: 280px;
   }
 
   .whats-box input:focus + label,
   .whats-box input:focus:valid + label {
-    left: 20px;
+    top: 20px;
+    left: 45px;
   }
   .whats-box {
     flex-direction: column;
@@ -975,9 +976,8 @@ footer li {
   
 
   .whats-box label {
-    left: 30px;
+    left: 53px;
+    top: 43px;
   }
-
-  
 }
 
