@@ -965,7 +965,7 @@ footer li {
   .whats-box input:focus + label,
   .whats-box input:focus:valid + label {
     top: 20px;
-    left: 45px;
+    left: 40px;
   }
   .whats-box {
     flex-direction: column;
@@ -976,7 +976,7 @@ footer li {
   
 
   .whats-box label {
-    left: 53px;
+    left: 48px;
     top: 43px;
   }
 }
