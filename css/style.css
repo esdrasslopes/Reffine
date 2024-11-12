@@ -854,14 +854,8 @@ footer li {
   }
 }
 
-@media only screen and (max-width: 700px) and (-webkit-device-pixel-ratio: 2) and (device-width: 375px),
-  only screen and (max-width: 700px) and (-webkit-device-pixel-ratio: 3) and (device-width: 375px) {
-
-  #information {
-    display: block;
-  }
-
-  #objective {
+@media only screen and (max-width: 700px) and (-webkit-min-device-pixel-ratio: 2) {
+  #information, #objective {
     display: block;
   }
 
