@@ -968,6 +968,7 @@ footer li {
     left: 40px;
   }
   .whats-box {
+    margin-top: 10px;
     flex-direction: column;
   }
   .whats-box input{
