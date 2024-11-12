@@ -546,6 +546,7 @@ body {
   outline: none;
   transition: all 0.3s ease;
   margin-right: 5px;
+  flex: 1;
 }
 
 
@@ -831,6 +832,7 @@ footer li {
     width: 100%;
     margin-bottom: 20px;
     height: auto;
+    order: 1;
   }
 
   #objective .text p {
@@ -839,6 +841,8 @@ footer li {
 
   #objective .product {
     width: 100%;
+    margin-bottom: 50px;
+    order: 2;
   }
   .conteiner-whats {
     margin-right: -10px;
@@ -850,8 +854,9 @@ footer li {
   }
 }
 
-@media only screen and (max-width: 700px) and (-webkit-device-pixel-ratio: 2),
-  only screen and (max-width: 700px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (max-width: 700px) and (-webkit-device-pixel-ratio: 2) and (device-width: 375px),
+  only screen and (max-width: 700px) and (-webkit-device-pixel-ratio: 3) and (device-width: 375px) {
+
   #information {
     display: block;
   }
@@ -873,7 +878,6 @@ footer li {
     left: 50px;
   }
 }
-
 
 
 @media screen and (max-width: 600px) {
@@ -967,3 +971,4 @@ footer li {
     left: 30px;
   }
 }
+
