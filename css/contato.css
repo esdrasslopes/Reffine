@@ -127,6 +127,7 @@ body {
   padding: 20px 25px;
   outline: none;
   transition: 0.5s;
+  resize: none;
 }
 
 #form-inputs textarea::placeholder{
