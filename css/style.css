@@ -356,7 +356,6 @@ body {
 
 .work {
   width: 35%;
-  min-height: 500px;
   background-image: url(../assets/images/jovem-carpinteiro-fazendo-moveis-de-madeira-enquanto-trabalhava-em-marcenaria_93675-150486.png);
   background-position: center;
   background-size: cover;
@@ -416,7 +415,6 @@ body {
 .product {
   background-image: url(../assets/images/fernando_mendes_oficina_1.jpg);
   width: 35%;
-  min-height: 500px;
   height: 450px;
   background-position: center;
   background-size: cover;
