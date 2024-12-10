@@ -387,6 +387,7 @@ body {
   border-radius: 1rem;
   transition: all 0.7s ease;
   order: 2;
+  min-height: 500px;
 }
 
 #objective .text:hover {
