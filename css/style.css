@@ -416,8 +416,8 @@ body {
 .product {
   background-image: url(../assets/images/fernando_mendes_oficina_1.jpg);
   width: 35%;
-  min-height: 450px;
-  height: 470px;
+  min-height: 500px;
+  height: 450px;
   background-position: center;
   background-size: cover;
   border-radius: 10px;
