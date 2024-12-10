@@ -387,6 +387,7 @@ body {
   border-right: 5px solid #8a6238;
   border-radius: 1rem;
   transition: all 0.7s ease;
+  order: 2;
 }
 
 #objective .text:hover {
@@ -415,11 +416,13 @@ body {
 .product {
   background-image: url(../assets/images/fernando_mendes_oficina_1.jpg);
   width: 35%;
-  min-height: 500px;
+  min-height: 450px;
+  height: 470px;
   background-position: center;
   background-size: cover;
   border-radius: 10px;
   transition: all 0.7s ease 0.4s;
+  order: 1;
 }
 
 .product:hover {
@@ -794,6 +797,7 @@ footer li {
   #informtion .work,
   #objective .product {
     width: 45%;
+    height: 440px;
   }
 
   #information .work {
